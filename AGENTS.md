@@ -103,6 +103,7 @@ silently omitting the channel.
 | `competitor-set-discovery` | you do not yet know who the competitors are |
 | `meta-ad-library` | you need real Meta ads, formats, durations, hooks or CTAs |
 | `tiktok-ad-access` | you need TikTok ads or organic and hit a wall |
+| `apple-search-ads` | you need App Store ads: EU repository, creatives and subtitle copy |
 
 ## Data and artifacts
 

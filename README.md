@@ -136,6 +136,7 @@ drift).
 | `competitor-set-discovery` | you do not know who the competitors are yet (build the set from the store, not from memory) |
 | `meta-ad-library` | you need real Meta ads: formats, durations, hooks, CTAs, with per-ad permalinks |
 | `tiktok-ad-access` | you need TikTok ads or organic and the endpoints refuse (they usually do) |
+| `apple-search-ads` | you need Apple Search Ads: the EU repository returns creatives and the subtitle copy tests |
 
 Repo conventions for agents live in [AGENTS.md](AGENTS.md): the evidence contract, which sources
 work without keys, the two surfaces that only work through a real browser, and the rule that every

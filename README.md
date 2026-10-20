@@ -124,6 +124,23 @@ red mcp     # stdio MCP server
 
 Named prompts: `investigate_distribution`, `where_can_we_play`, `steal_the_distribution`, `what_changed`, `audit_unknowns`.
 
+## Skills that ship with it
+
+`skills/` holds the procedures an agent needs to do this work without re-deriving it. Install them
+with `./scripts/install-skills.sh` (copies to `~/.hermes/skills/distribution/`, `--check` reports
+drift).
+
+| Skill | Use it when |
+|---|---|
+| `reverse-engineering-distribution` | planning distribution for a product, auditing communities, running RED |
+| `competitor-set-discovery` | you do not know who the competitors are yet (build the set from the store, not from memory) |
+| `meta-ad-library` | you need real Meta ads: formats, durations, hooks, CTAs, with per-ad permalinks |
+| `tiktok-ad-access` | you need TikTok ads or organic and the endpoints refuse (they usually do) |
+
+Repo conventions for agents live in [AGENTS.md](AGENTS.md): the evidence contract, which sources
+work without keys, the two surfaces that only work through a real browser, and the rule that every
+finding ships with a clickable URL.
+
 ## What it finds
 
 | Area | What RED pulls | Key? |

@@ -73,6 +73,24 @@ page with one card per ad: image, subtitle, country, language, window, promo. Cl
 opens the asset. This is what `tools/build-apple-ads.py` does in the distribution repo, over
 `research/apple-ads-<fecha>.json`.
 
+## There is no page per ad, and what to use instead
+
+The repository is a search UI, not a catalogue: `/ad/<adId>`, `/?adId=`, `/?appId=` and
+`/app/<appId>` all return 404. Nothing on the site opens a single creative at a stable URL.
+
+To give a reader more than the screenshot, use three things that do work:
+
+1. **The record itself.** The JSON from the API has the full `shortDescription`, the targeting flags,
+   `placement`, `developerName`, `legalName` and both impression dates. Show it inline (a `<details>`
+   block in the page) or hand over the `adId` with the query that returns it.
+2. **The advertiser's App Store page**, `https://apps.apple.com/app/id<appId>`: full description,
+   rating count, reviews, recent updates. That is where the "more data" about the product lives.
+3. **The API URL for that app**, which the reader can open in a browser and search for the `adId`:
+   `.../ad-repository-ads?ql=type==APP;id==<appId>;datePreset==LAST_YEAR&offset=0&limit=100`.
+
+Say this out loud in the deliverable. A gallery that only shows the image invites the question
+"where do I see the rest", and the honest answer is the API plus the store listing.
+
 ## Limits, stated plainly
 
 - **EU only.** Ads served in the United States are not in this repository. There is no public

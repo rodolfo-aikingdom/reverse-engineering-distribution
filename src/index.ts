@@ -118,7 +118,7 @@ export async function reverseEngineer(input: string, opts: RunOptions = {}): Pro
     ["communities", "communities", () => runSource(ctx, "communities", collectCommunities)],
   ];
   await Promise.all(
-    jobs.filter(([a]) => want(a) && target.url).map(([area, label, fn]) => {
+    jobs.filter(([a]) => want(a) && (target.url || a === "communities")).map(([area, label, fn]) => {
       log(`→ ${label}`);
       return timed(area, RUN_LABELS[area], fn);
     }),

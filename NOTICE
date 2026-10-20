@@ -1,0 +1,41 @@
+# NOTICE
+
+This project is a derivative work.
+
+## Upstream
+
+`reverse-engineering-distribution` started from the source of
+[reverse-engineer-marketing](https://github.com/dansugc/reverse-engineer-marketing)
+by Daniel Hangan (DansUGC), MIT licensed, version 0.1.0.
+
+That project was itself inspired by [REA, Reverse Engineer
+Anything](https://github.com/morluto/rea).
+
+## What was inherited
+
+The evidence contract (observation / derivation / unknown), the collector
+sources for website forensics, tracking pixels and GTM containers, SEO and
+sitemaps, AI-crawler stance, Wayback history, App Store / Play, Hacker News,
+the paid and social collectors, the harness loader, the report writer engines,
+the MCP server scaffolding, the web app and the 23 parser/security tests.
+
+## What is original to this work
+
+- The distribution lens: what is new is the question the bundle answers.
+- `src/sources/communities.ts`: Atom feed parsing, community measurement
+  (cadence, link share, promo share, question share), rule classification,
+  the five verdicts and the gate logic.
+- `src/analyze/plan.ts`: the deterministic 7/30-day distribution plan, the
+  closed and unconfirmed lists.
+- The rewritten harness: distribution analyst role, rules-first guardrails,
+  the distribution report template, a new lesson library, nine surface
+  playbooks, and a new validator (required sections, plan grounding, "every
+  audited community got a verdict").
+- The CLI/MCP surface under the `red` name, and the additional tests
+  (communities, plan, harness, validator) that bring the suite to 66.
+
+## Names
+
+"Reverse Engineer Marketing", "REM" and "DansUGC" belong to their owners. This
+repo does not claim them, does not publish under them, and keeps the MIT
+attribution above.

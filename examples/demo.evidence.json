@@ -1,0 +1,1420 @@
+{
+  "tool": {
+    "name": "reverse-engineering-distribution",
+    "version": "0.1.0"
+  },
+  "harness": {
+    "version": "1",
+    "sha": "14fbbc5907c2"
+  },
+  "target": {
+    "input": "https://plausible.io",
+    "kind": "website",
+    "url": "https://plausible.io",
+    "domain": "plausible.io",
+    "brand": "Plausible Analytics"
+  },
+  "generatedAt": "2026-10-20T19:45:20.505Z",
+  "brand": "Plausible Analytics",
+  "discovered": {
+    "socials": {
+      "x": "PlausibleHQ",
+      "linkedin": "plausible-analytics",
+      "github": "plausible"
+    },
+    "people": [],
+    "appStoreIds": [],
+    "playIds": [],
+    "logos": [
+      {
+        "url": "https://plausible.io/assets/images/icon/apple-touch-icon.png",
+        "source": "apple-touch-icon",
+        "size": 180
+      },
+      {
+        "url": "https://plausible.io/assets/images/icon/favicon.ico",
+        "source": "icon",
+        "size": 32
+      },
+      {
+        "url": "https://plausible.io/assets/images/icon/favicon.svg",
+        "source": "icon",
+        "size": 512
+      },
+      {
+        "url": "https://plausible.io/assets/images/plausible_promo.jpg",
+        "source": "og-image"
+      }
+    ],
+    "founderHints": [
+      {
+        "name": "Clem Delangue",
+        "role": "Co-founder and CEO",
+        "source": "website_text",
+        "url": "https://plausible.io"
+      },
+      {
+        "name": "Laura Roeder",
+        "role": "Founder",
+        "source": "website_text",
+        "url": "https://plausible.io"
+      }
+    ],
+    "brandName": "Plausible Analytics"
+  },
+  "scorecard": [
+    {
+      "channel": "paid_meta",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "SCRAPECREATORS_API_KEY not set",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "paid_google",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "SCRAPECREATORS_API_KEY not set",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "paid_linkedin",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "SCRAPECREATORS_API_KEY not set",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "paid_reddit",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "Reddit's ad library was shut down; Reddit pixel presence (tracking) is the only signal",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "paid_tiktok",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "TikTok has no global ad library API; check the EU library / Creative Center by hand (TikTok pixel presence is reported under tracking)",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "paid_apple",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "No iOS app found for this company, so Apple Search Ads were not checked",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "organic_tiktok",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "No account linked from the site",
+      "evidence": []
+    },
+    {
+      "channel": "organic_instagram",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "No account linked from the site",
+      "evidence": []
+    },
+    {
+      "channel": "organic_youtube",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "No account linked from the site",
+      "evidence": []
+    },
+    {
+      "channel": "organic_x",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "Account found but SCRAPECREATORS_API_KEY not set — no stats",
+      "evidence": []
+    },
+    {
+      "channel": "organic_linkedin",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "Account found but SCRAPECREATORS_API_KEY not set — no stats",
+      "evidence": []
+    },
+    {
+      "channel": "seo",
+      "status": "active",
+      "strength": 2,
+      "signal": "165 indexed URLs, 0 programmatic families, 12 content updates/90d",
+      "evidence": [
+        "E9"
+      ]
+    },
+    {
+      "channel": "geo",
+      "status": "none",
+      "strength": 0,
+      "signal": "no llms.txt",
+      "evidence": [
+        "E10"
+      ]
+    },
+    {
+      "channel": "founder_led",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "Founders: Clem Delangue, Laura Roeder (audience not checked)",
+      "evidence": [
+        "E13"
+      ]
+    },
+    {
+      "channel": "reddit_marketing",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "SCRAPECREATORS_API_KEY not set — Reddit not checked",
+      "evidence": [
+        "E3"
+      ]
+    },
+    {
+      "channel": "community",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "SCRAPECREATORS_API_KEY not set — Reddit/Product Hunt skipped",
+      "evidence": []
+    },
+    {
+      "channel": "launches",
+      "status": "active",
+      "strength": 3,
+      "signal": "Hacker News: 68 submissions, best 1214 points, has Show HN launch",
+      "evidence": [
+        "E11"
+      ]
+    },
+    {
+      "channel": "app_store",
+      "status": "none",
+      "strength": 0,
+      "signal": "No App Store / Play app found",
+      "evidence": []
+    },
+    {
+      "channel": "lifecycle",
+      "status": "unknown",
+      "strength": 0,
+      "signal": "No email tool visible client-side (most run server-side)",
+      "evidence": [
+        "E4"
+      ]
+    },
+    {
+      "channel": "affiliate",
+      "status": "none",
+      "strength": 0,
+      "signal": "No affiliate program found",
+      "evidence": [
+        "E4"
+      ]
+    },
+    {
+      "channel": "sales_led",
+      "status": "active",
+      "strength": 1,
+      "signal": "contact-sales tier",
+      "evidence": [
+        "E7",
+        "E4"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "observedAt": "2026-10-20T19:43:20.196Z",
+      "source": "website",
+      "kind": "observation",
+      "title": "Homepage positioning: \"Easy to use and privacy-friendly Google Analytics alternative\"",
+      "url": "https://plausible.io",
+      "data": {
+        "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+        "metaDescription": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+        "h1": [
+          "Easy to use and privacy-friendly Google Analytics alternative"
+        ],
+        "h2": [
+          "Why use Plausible Analytics?",
+          "People ❤️ Plausible",
+          "It's time to ditch Google Analytics",
+          "Traffic based plans that match your growth"
+        ],
+        "ctas": [
+          "Start free trial",
+          "try Plausible"
+        ],
+        "lang": "en",
+        "wordCount": 1381,
+        "socialProof": [
+          "trusted by thousands of organizations, including Stripe, Mozilla, Mongo"
+        ],
+        "jsonLdTypes": [
+          "WebSite"
+        ]
+      }
+    },
+    {
+      "id": "E2",
+      "observedAt": "2026-10-20T19:43:20.197Z",
+      "source": "website",
+      "kind": "observation",
+      "title": "Linked channels: x, linkedin, github",
+      "url": "https://plausible.io",
+      "data": {
+        "socials": {
+          "x": "PlausibleHQ",
+          "linkedin": "plausible-analytics",
+          "github": "plausible"
+        },
+        "people": [],
+        "appStoreIds": [],
+        "playIds": []
+      }
+    },
+    {
+      "id": "E3",
+      "observedAt": "2026-10-20T19:43:20.210Z",
+      "source": "tracking",
+      "kind": "observation",
+      "title": "No ad pixels detected on homepage (or loaded server-side)",
+      "url": "https://plausible.io",
+      "data": {
+        "pixels": [],
+        "gtmContainersScanned": []
+      }
+    },
+    {
+      "id": "E4",
+      "observedAt": "2026-10-20T19:43:20.210Z",
+      "source": "tracking",
+      "kind": "observation",
+      "title": "Marketing stack: Plausible",
+      "url": "https://plausible.io",
+      "data": {
+        "byCategory": {
+          "analytics": [
+            "Plausible"
+          ]
+        },
+        "tags": [
+          {
+            "id": "plausible",
+            "name": "Plausible",
+            "category": "analytics",
+            "ids": [],
+            "foundIn": [
+              "page"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E5",
+      "observedAt": "2026-10-20T19:43:20.212Z",
+      "source": "website",
+      "kind": "observation",
+      "title": "Key pages found: compare, blog, changelog, about",
+      "url": "https://plausible.io",
+      "data": {
+        "compare": "https://plausible.io/vs-google-analytics",
+        "blog": "https://plausible.io/blog",
+        "changelog": "https://plausible.io/changelog",
+        "about": "https://plausible.io/about"
+      }
+    },
+    {
+      "id": "E6",
+      "observedAt": "2026-10-20T19:43:20.351Z",
+      "source": "website",
+      "kind": "observation",
+      "title": "About/team page",
+      "url": "https://plausible.io/about",
+      "data": {
+        "h1": [
+          "About"
+        ],
+        "h2": [
+          "Our story",
+          "How we’re funded",
+          "How we grow",
+          "Open source as accountability",
+          "Privacy without compromise",
+          "Ready to try Plausible?"
+        ],
+        "excerpt": "Why Plausible Simple analytics dashboard Get all the important stats on one single page. No training necessary. Lightweight script Loads fast and won't affect your page speed or Core Web Vitals. A fraction of the size of Google Analytics. Privacy-friendly analytics Built with visitor privacy in mind. No cookie banner required. Open source The code is public and auditable. Verify exactly what we collect, and run it yourself if you want to. EU-hosted Built and hosted in the EU. Your data never leaves European-owned infrastructure. Who it's for Ecommerce SaaS Agencies Creators & publishers Public sector White-label analytics Enterprise Compare vs Google Analytics Migrate from GA4 vs Matomo vs Cloudflare Analytics Resources Documentation Everything you need to get up and running with Plausible. Blog Stories about privacy, web analytics and building Plausible. Tools Free calculators and utilities to help you understand your analytics data. Status Check the live status and uptime of Plausible services. Product updates Major new features and improvements. Follow Plausible: Twitter, Bluesky, Mastodon and LinkedIn Pricing Login Start free trial My dashboard Start free trial Log in My dashb…",
+        "linkedinPeople": []
+      }
+    },
+    {
+      "id": "E7",
+      "observedAt": "2026-10-20T19:43:20.354Z",
+      "source": "website",
+      "kind": "derivation",
+      "title": "Monetization: 30-day trial · prices $9 /mo, $14 /mo, $19 /mo · sales-assisted tier",
+      "url": "https://plausible.io",
+      "data": {
+        "prices": [
+          "$9 /mo",
+          "$14 /mo",
+          "$19 /mo"
+        ],
+        "freePlan": false,
+        "freeTrial": true,
+        "trialDays": 30,
+        "moneyBack": false,
+        "contactSales": true,
+        "perSeat": false,
+        "annualDiscount": false,
+        "lifetimeDeal": false,
+        "usageBased": false,
+        "pricingPageFound": false
+      }
+    },
+    {
+      "id": "E8",
+      "observedAt": "2026-10-20T19:43:20.458Z",
+      "source": "communities",
+      "kind": "observation",
+      "title": "Community r/selfhosted: 25 posts in 1d, 44% link posts, 8% self-promo",
+      "url": "https://www.reddit.com/r/selfhosted/new/",
+      "data": {
+        "measured": {
+          "subreddit": "selfhosted",
+          "posts": 25,
+          "windowDays": 1,
+          "postsPerDay": 24.44,
+          "pctLinks": 0.44,
+          "pctQuestion": 0.2,
+          "pctStory": 0.52,
+          "pctSelfPromo": 0.08,
+          "medianTitleWords": 9,
+          "topDomains": [
+            {
+              "domain": "github.com",
+              "n": 5
+            },
+            {
+              "domain": "discord.gg",
+              "n": 2
+            },
+            {
+              "domain": "lla.ma",
+              "n": 1
+            },
+            {
+              "domain": "base.lla.ma",
+              "n": 1
+            },
+            {
+              "domain": "i.redd.it",
+              "n": 1
+            }
+          ],
+          "samples": [
+            {
+              "title": "lla.ma Base: Postgres with a web console and database management",
+              "url": "https://www.reddit.com/r/selfhosted/comments/1xb0pd4/llama_base_postgres_with_a_web_console_and/",
+              "author": "/u/InspectorDangerous82",
+              "hasLink": true
+            },
+            {
+              "title": "Query: Trying to host a site for free on custom subdomain but facing issue",
+              "url": "https://www.reddit.com/r/selfhosted/comments/1xb0aps/query_trying_to_host_a_site_for_free_on_custom/",
+              "author": "/u/SpreadingSmile",
+              "hasLink": false
+            },
+            {
+              "title": "Go: Self hosted URL redirector for making go/shortlink -> https://longer-url on your internal network",
+              "url": "https://www.reddit.com/r/selfhosted/comments/1xayxe4/go_self_hosted_url_redirector_for_making/",
+              "author": "/u/junkmailking",
+              "hasLink": false
+            },
+            {
+              "title": "Omnivore - A fully self-hosted and Open Source Read-it-Later App",
+              "url": "https://www.reddit.com/r/selfhosted/comments/1xaujlk/omnivore_a_fully_selfhosted_and_open_source/",
+              "author": "/u/Podgietaru",
+              "hasLink": true
+            },
+            {
+              "title": "Leaked SSL Certificates: no https connection can be trusted",
+              "url": "https://www.reddit.com/r/selfhosted/comments/1xaubjf/leaked_ssl_certificates_no_https_connection_can/",
+              "author": "/u/moanos",
+              "hasLink": true
+            }
+          ]
+        },
+        "policies": [],
+        "score": 50,
+        "verdict": "unknown",
+        "reasons": [
+          "no rules read: the channel is unknown, not open",
+          "25 posts in 1d (24.44/day); 44% carry an external link, 8% are self-promo, 20% are questions",
+          "the format hosts links, but no rules were read: unknown until a moderator or the sidebar confirms it"
+        ],
+        "sample": [
+          {
+            "title": "lla.ma Base: Postgres with a web console and database management",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xb0pd4/llama_base_postgres_with_a_web_console_and/",
+            "author": "/u/InspectorDangerous82",
+            "hasLink": true
+          },
+          {
+            "title": "Query: Trying to host a site for free on custom subdomain but facing issue",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xb0aps/query_trying_to_host_a_site_for_free_on_custom/",
+            "author": "/u/SpreadingSmile",
+            "hasLink": false
+          },
+          {
+            "title": "Go: Self hosted URL redirector for making go/shortlink -> https://longer-url on your internal network",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xayxe4/go_self_hosted_url_redirector_for_making/",
+            "author": "/u/junkmailking",
+            "hasLink": false
+          },
+          {
+            "title": "Omnivore - A fully self-hosted and Open Source Read-it-Later App",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xaujlk/omnivore_a_fully_selfhosted_and_open_source/",
+            "author": "/u/Podgietaru",
+            "hasLink": true
+          },
+          {
+            "title": "Leaked SSL Certificates: no https connection can be trusted",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xaubjf/leaked_ssl_certificates_no_https_connection_can/",
+            "author": "/u/moanos",
+            "hasLink": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "E9",
+      "observedAt": "2026-10-20T19:43:20.629Z",
+      "source": "seo",
+      "kind": "derivation",
+      "title": "Sitemap: 165 URLs, 0 programmatic page families, 12 content updates in 90d",
+      "url": "https://plausible.io/sitemap.xml",
+      "data": {
+        "totalUrls": 165,
+        "sections": [
+          {
+            "path": "/blog",
+            "count": 108,
+            "examples": [
+              "/blog/the-analytics-tool-i-want",
+              "/blog/learning-design-as-a-developer",
+              "/blog/technology-choices",
+              "/blog/how-to-store-last-seen-for-users"
+            ],
+            "programmatic": false,
+            "freshLast90d": 12
+          },
+          {
+            "path": "/(root pages)",
+            "count": 52,
+            "examples": [
+              "/ad-cost-calculator",
+              "/google-analytics-script-size",
+              "/vs-cloudflare-web-analytics",
+              "/compliance"
+            ],
+            "programmatic": false,
+            "freshLast90d": 41
+          },
+          {
+            "path": "/jobs",
+            "count": 3,
+            "examples": [
+              "/jobs/customer-success",
+              "/jobs/infrastructure-engineer",
+              "/jobs/product-engineer"
+            ],
+            "programmatic": false,
+            "freshLast90d": 0
+          },
+          {
+            "path": "/layouts",
+            "count": 1,
+            "examples": [
+              "/layouts/changes"
+            ],
+            "programmatic": false,
+            "freshLast90d": 0
+          },
+          {
+            "path": "/",
+            "count": 1,
+            "examples": [
+              "/"
+            ],
+            "programmatic": false,
+            "freshLast90d": 0
+          }
+        ],
+        "locales": [],
+        "patterns": {
+          "comparison": 5,
+          "alternatives": 2,
+          "integrations": 0,
+          "templates": 0,
+          "tools": 0,
+          "glossary": 1,
+          "useCases": 0,
+          "locations": 0,
+          "howTo": 1,
+          "listicles": 2
+        },
+        "blogPostsLast30d": 1,
+        "blogPostsLast90d": 12,
+        "sitemapsRead": [
+          "https://plausible.io/sitemap.xml"
+        ]
+      }
+    },
+    {
+      "id": "E10",
+      "observedAt": "2026-10-20T19:43:20.629Z",
+      "source": "seo",
+      "kind": "observation",
+      "title": "AI-search stance: no llms.txt; no AI bots blocked",
+      "url": "https://plausible.io/robots.txt",
+      "data": {
+        "robots": {
+          "sitemaps": [
+            "https://plausible.io/sitemap.xml"
+          ],
+          "aiBots": {
+            "GPTBot": "unspecified",
+            "OAI-SearchBot": "unspecified",
+            "ChatGPT-User": "unspecified",
+            "ClaudeBot": "unspecified",
+            "Claude-SearchBot": "unspecified",
+            "PerplexityBot": "unspecified",
+            "Google-Extended": "unspecified",
+            "CCBot": "unspecified",
+            "Applebot-Extended": "unspecified",
+            "Bytespider": "unspecified"
+          },
+          "disallowCount": 0
+        },
+        "llmsTxt": null
+      }
+    },
+    {
+      "id": "E11",
+      "observedAt": "2026-10-20T19:43:20.941Z",
+      "source": "hackernews",
+      "kind": "observation",
+      "title": "Hacker News: 68 submissions, best 1214 points, has Show HN launch",
+      "url": "https://hn.algolia.com/?query=plausible.io",
+      "data": [
+        {
+          "title": "Tech-savvy audiences block Google Analytics",
+          "points": 1214,
+          "comments": 681,
+          "date": "2021-08-31",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=28365163"
+        },
+        {
+          "title": "You probably don't need a single-page app",
+          "points": 816,
+          "comments": 499,
+          "date": "2019-02-17",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=19184496"
+        },
+        {
+          "title": "AMP pages no longer get preferential treatment in Google search",
+          "points": 719,
+          "comments": 172,
+          "date": "2021-05-18",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=27192685"
+        },
+        {
+          "title": "How We built a $1M ARR open source SaaS",
+          "points": 522,
+          "comments": 106,
+          "date": "2022-06-24",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=31857069"
+        },
+        {
+          "title": "Millions are visiting the European Alternatives site. What trends are we seeing?",
+          "points": 493,
+          "comments": 612,
+          "date": "2025-03-24",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=43458509"
+        },
+        {
+          "title": "An alternative to using Google Analytics on your website",
+          "points": 462,
+          "comments": 301,
+          "date": "2020-04-08",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=22813168"
+        },
+        {
+          "title": "Show HN: Plausible – Self-Hosted Google Analytics alternative",
+          "points": 351,
+          "comments": 139,
+          "date": "2020-10-06",
+          "showHN": true,
+          "url": "https://news.ycombinator.com/item?id=24696145"
+        },
+        {
+          "title": "How to pay your rent with your open source project",
+          "points": 342,
+          "comments": 168,
+          "date": "2020-07-27",
+          "showHN": false,
+          "url": "https://news.ycombinator.com/item?id=23963202"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "observedAt": "2026-10-20T19:43:21.174Z",
+      "source": "wikidata",
+      "kind": "observation",
+      "title": "Wikidata: Plausible Analytics, founded 2018",
+      "url": "https://www.wikidata.org/wiki/Q105731934",
+      "data": {
+        "item": "Q105731934",
+        "description": "privacy-friendly web analytics",
+        "inception": "2018",
+        "founders": [],
+        "ceos": []
+      }
+    },
+    {
+      "id": "E13",
+      "observedAt": "2026-10-20T19:43:21.176Z",
+      "source": "founders",
+      "kind": "observation",
+      "title": "Founders/leaders: Clem Delangue (Co-founder and CEO) [weak match]; Laura Roeder (Founder) [weak match]",
+      "url": "https://www.google.com/search?q=%22Plausible%20Analytics%22%20founder",
+      "data": [
+        {
+          "name": "Clem Delangue",
+          "confidence": "low",
+          "score": 1,
+          "sources": [
+            "website_text"
+          ],
+          "evidenceUrls": [
+            "https://plausible.io"
+          ],
+          "role": "Co-founder and CEO"
+        },
+        {
+          "name": "Laura Roeder",
+          "confidence": "low",
+          "score": 1,
+          "sources": [
+            "website_text"
+          ],
+          "evidenceUrls": [
+            "https://plausible.io"
+          ],
+          "role": "Founder"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "observedAt": "2026-10-20T19:43:25.571Z",
+      "source": "wayback",
+      "kind": "observation",
+      "title": "Homepage history: first archived 2019-07-22, 88 monthly snapshots",
+      "url": "https://web.archive.org/web/*/plausible.io",
+      "data": {
+        "firstSeen": "20190722082333",
+        "monthlySnapshots": 88,
+        "history": [
+          {
+            "date": "2019-07-22",
+            "title": "Plausible · Simple web analytics",
+            "h1": "Simple analytics for your website",
+            "description": "Plausible is a simple, lightweight web analytics service. Monitor your website traffic while respecting your visitors' privacy.",
+            "ctas": [
+              "Start free trial",
+              "View live demo",
+              "View live demo →",
+              "Start free trial →"
+            ]
+          },
+          {
+            "date": "2024-10-01",
+            "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+            "h1": "Easy to use and privacy-friendly Google Analytics alternative",
+            "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+            "ctas": [
+              "Start free trial",
+              "Get started"
+            ]
+          },
+          {
+            "date": "2025-10-01",
+            "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+            "h1": "Easy to use and privacy-friendly Google Analytics alternative",
+            "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+            "ctas": [
+              "Start free trial",
+              "Get started",
+              "Start your free trial"
+            ]
+          },
+          {
+            "date": "2026-04-01",
+            "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+            "h1": "Easy to use and privacy-friendly Google Analytics alternative",
+            "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+            "ctas": [
+              "Startups & SaaS",
+              "Start free trial",
+              "try Plausible",
+              "Start your free trial"
+            ]
+          },
+          {
+            "date": "2026-10-01",
+            "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+            "h1": "Easy to use and privacy-friendly Google Analytics alternative",
+            "description": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+            "ctas": [
+              "Start free trial",
+              "try Plausible"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E15",
+      "observedAt": "2026-10-20T19:44:20.479Z",
+      "source": "communities",
+      "kind": "observation",
+      "title": "Community r/webdev: 25 posts in 2d, 40% link posts, 4% self-promo",
+      "url": "https://www.reddit.com/r/webdev/new/",
+      "data": {
+        "measured": {
+          "subreddit": "webdev",
+          "posts": 25,
+          "windowDays": 2,
+          "postsPerDay": 12.42,
+          "pctLinks": 0.4,
+          "pctQuestion": 0.24,
+          "pctStory": 0.32,
+          "pctSelfPromo": 0.04,
+          "medianTitleWords": 10,
+          "topDomains": [
+            {
+              "domain": "github.com",
+              "n": 3
+            },
+            {
+              "domain": "i.redd.it",
+              "n": 2
+            },
+            {
+              "domain": "stringutilitybelt.com",
+              "n": 1
+            },
+            {
+              "domain": "stephcraft.net",
+              "n": 1
+            },
+            {
+              "domain": "demo.yourdomain.com",
+              "n": 1
+            }
+          ],
+          "samples": [
+            {
+              "title": "Understanding DMCA for personal project",
+              "url": "https://www.reddit.com/r/webdev/comments/1xayzou/understanding_dmca_for_personal_project/",
+              "author": "/u/FlamedDogo99",
+              "hasLink": true
+            },
+            {
+              "title": "eval() in a straitjacket: sandboxing JavaScript under CSP",
+              "url": "https://www.reddit.com/r/webdev/comments/1xaxbr5/eval_in_a_straitjacket_sandboxing_javascript/",
+              "author": "/u/shmurrie",
+              "hasLink": true
+            },
+            {
+              "title": "How are you managing duplicate logic when using AI coding agents?",
+              "url": "https://www.reddit.com/r/webdev/comments/1xawlae/how_are_you_managing_duplicate_logic_when_using/",
+              "author": "/u/Chris__Codes",
+              "hasLink": false
+            },
+            {
+              "title": "How to Configure robots.txt for Modern Crawlers and AI Bots",
+              "url": "https://www.reddit.com/r/webdev/comments/1xavzcl/how_to_configure_robotstxt_for_modern_crawlers/",
+              "author": "/u/Stephcraft",
+              "hasLink": true
+            },
+            {
+              "title": "[Showoff Saturday] I built a desktop app that gives localhost:3000 a real HTTPS URL on your own domain",
+              "url": "https://www.reddit.com/r/webdev/comments/1xas1l0/showoff_saturday_i_built_a_desktop_app_that_gives/",
+              "author": "/u/AdStraight5948",
+              "hasLink": true
+            }
+          ]
+        },
+        "policies": [],
+        "score": 50,
+        "verdict": "unknown",
+        "reasons": [
+          "no rules read: the channel is unknown, not open",
+          "25 posts in 2d (12.42/day); 40% carry an external link, 4% are self-promo, 24% are questions",
+          "the format hosts links, but no rules were read: unknown until a moderator or the sidebar confirms it"
+        ],
+        "sample": [
+          {
+            "title": "Understanding DMCA for personal project",
+            "url": "https://www.reddit.com/r/webdev/comments/1xayzou/understanding_dmca_for_personal_project/",
+            "author": "/u/FlamedDogo99",
+            "hasLink": true
+          },
+          {
+            "title": "eval() in a straitjacket: sandboxing JavaScript under CSP",
+            "url": "https://www.reddit.com/r/webdev/comments/1xaxbr5/eval_in_a_straitjacket_sandboxing_javascript/",
+            "author": "/u/shmurrie",
+            "hasLink": true
+          },
+          {
+            "title": "How are you managing duplicate logic when using AI coding agents?",
+            "url": "https://www.reddit.com/r/webdev/comments/1xawlae/how_are_you_managing_duplicate_logic_when_using/",
+            "author": "/u/Chris__Codes",
+            "hasLink": false
+          },
+          {
+            "title": "How to Configure robots.txt for Modern Crawlers and AI Bots",
+            "url": "https://www.reddit.com/r/webdev/comments/1xavzcl/how_to_configure_robotstxt_for_modern_crawlers/",
+            "author": "/u/Stephcraft",
+            "hasLink": true
+          },
+          {
+            "title": "[Showoff Saturday] I built a desktop app that gives localhost:3000 a real HTTPS URL on your own domain",
+            "url": "https://www.reddit.com/r/webdev/comments/1xas1l0/showoff_saturday_i_built_a_desktop_app_that_gives/",
+            "author": "/u/AdStraight5948",
+            "hasLink": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "E16",
+      "observedAt": "2026-10-20T19:45:20.503Z",
+      "source": "communities",
+      "kind": "observation",
+      "title": "Community r/analytics: 25 posts in 8d, 0% link posts, 0% self-promo",
+      "url": "https://www.reddit.com/r/analytics/new/",
+      "data": {
+        "measured": {
+          "subreddit": "analytics",
+          "posts": 25,
+          "windowDays": 8,
+          "postsPerDay": 3.12,
+          "pctLinks": 0,
+          "pctQuestion": 0.56,
+          "pctStory": 0.2,
+          "pctSelfPromo": 0,
+          "medianTitleWords": 12,
+          "topDomains": [],
+          "samples": [
+            {
+              "title": "What part of your reporting work is still manual every month?",
+              "url": "https://www.reddit.com/r/analytics/comments/1xay4td/what_part_of_your_reporting_work_is_still_manual/",
+              "author": "/u/Forsaken-Arugula1564",
+              "hasLink": false
+            },
+            {
+              "title": "Business analytics student, am i cooked? (I really need advice)",
+              "url": "https://www.reddit.com/r/analytics/comments/1xamwrl/business_analytics_student_am_i_cooked_i_really/",
+              "author": "/u/asdhjskhfasdjk",
+              "hasLink": false
+            },
+            {
+              "title": "If you could automate ONE ecommerce workflow tomorrow, which would you choose?",
+              "url": "https://www.reddit.com/r/analytics/comments/1x9z84b/if_you_could_automate_one_ecommerce_workflow/",
+              "author": "/u/trivasai",
+              "hasLink": false
+            },
+            {
+              "title": "Monthly Career Advice and Job Openings",
+              "url": "https://www.reddit.com/r/analytics/comments/1x9z76w/monthly_career_advice_and_job_openings/",
+              "author": "/u/AutoModerator",
+              "hasLink": false
+            },
+            {
+              "title": "Long time in Web Analytics just started working with PPC people",
+              "url": "https://www.reddit.com/r/analytics/comments/1x9ysdj/long_time_in_web_analytics_just_started_working/",
+              "author": "/u/AggravatingAnalyst28",
+              "hasLink": false
+            }
+          ]
+        },
+        "policies": [],
+        "score": 30,
+        "verdict": "mine",
+        "reasons": [
+          "no rules read: the channel is unknown, not open",
+          "25 posts in 8d (3.12/day); 0% carry an external link, 0% are self-promo, 56% are questions",
+          "the format is story/question posts without links: use it as a language mine, not a posting channel"
+        ],
+        "sample": [
+          {
+            "title": "What part of your reporting work is still manual every month?",
+            "url": "https://www.reddit.com/r/analytics/comments/1xay4td/what_part_of_your_reporting_work_is_still_manual/",
+            "author": "/u/Forsaken-Arugula1564",
+            "hasLink": false
+          },
+          {
+            "title": "Business analytics student, am i cooked? (I really need advice)",
+            "url": "https://www.reddit.com/r/analytics/comments/1xamwrl/business_analytics_student_am_i_cooked_i_really/",
+            "author": "/u/asdhjskhfasdjk",
+            "hasLink": false
+          },
+          {
+            "title": "If you could automate ONE ecommerce workflow tomorrow, which would you choose?",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9z84b/if_you_could_automate_one_ecommerce_workflow/",
+            "author": "/u/trivasai",
+            "hasLink": false
+          },
+          {
+            "title": "Monthly Career Advice and Job Openings",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9z76w/monthly_career_advice_and_job_openings/",
+            "author": "/u/AutoModerator",
+            "hasLink": false
+          },
+          {
+            "title": "Long time in Web Analytics just started working with PPC people",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9ysdj/long_time_in_web_analytics_just_started_working/",
+            "author": "/u/AggravatingAnalyst28",
+            "hasLink": false
+          }
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    {
+      "channel": "paid_tiktok",
+      "reason": "TikTok has no global ad library API; check the EU library / Creative Center by hand (TikTok pixel presence is reported under tracking)",
+      "manualCheck": "https://library.tiktok.com/ads?region=all&adv_name=Plausible%20Analytics"
+    },
+    {
+      "channel": "paid_reddit",
+      "reason": "Reddit's ad library was shut down; Reddit pixel presence (tracking) is the only signal",
+      "manualCheck": "https://www.reddit.com/search/?q=Plausible%20Analytics"
+    },
+    {
+      "channel": "paid_meta",
+      "reason": "SCRAPECREATORS_API_KEY not set",
+      "manualCheck": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&q=Plausible%20Analytics&search_type=keyword_unordered"
+    },
+    {
+      "channel": "paid_google",
+      "reason": "SCRAPECREATORS_API_KEY not set",
+      "manualCheck": "https://adstransparency.google.com/?region=anywhere&domain=plausible.io"
+    },
+    {
+      "channel": "paid_linkedin",
+      "reason": "SCRAPECREATORS_API_KEY not set",
+      "manualCheck": "https://www.linkedin.com/ad-library/search?accountOwner=Plausible%20Analytics"
+    },
+    {
+      "channel": "organic_tiktok",
+      "reason": "No account linked from the site"
+    },
+    {
+      "channel": "organic_instagram",
+      "reason": "No account linked from the site"
+    },
+    {
+      "channel": "organic_youtube",
+      "reason": "No account linked from the site"
+    },
+    {
+      "channel": "organic_x",
+      "reason": "Account found but SCRAPECREATORS_API_KEY not set — no stats",
+      "manualCheck": "https://x.com/PlausibleHQ"
+    },
+    {
+      "channel": "organic_linkedin",
+      "reason": "Account found but SCRAPECREATORS_API_KEY not set — no stats",
+      "manualCheck": "https://www.linkedin.com/company/plausible-analytics"
+    },
+    {
+      "channel": "community",
+      "reason": "SCRAPECREATORS_API_KEY not set — Reddit/Product Hunt skipped",
+      "manualCheck": "https://www.reddit.com/search/?q=plausible.io"
+    },
+    {
+      "channel": "reddit_marketing",
+      "reason": "SCRAPECREATORS_API_KEY not set — Reddit not checked",
+      "manualCheck": "https://www.reddit.com/search/?q=Plausible%20Analytics"
+    },
+    {
+      "channel": "paid_apple",
+      "reason": "No iOS app found for this company, so Apple Search Ads were not checked",
+      "manualCheck": "https://adrepository.apple.com/"
+    },
+    {
+      "channel": "founder_led",
+      "reason": "SCRAPECREATORS_API_KEY not set — founder names from free sources only; audience/posting not checked",
+      "manualCheck": "https://www.google.com/search?q=%22Plausible%20Analytics%22%20founder%20site%3Alinkedin.com%2Fin"
+    }
+  ],
+  "sources": [
+    {
+      "source": "website",
+      "status": "ok",
+      "ms": 514
+    },
+    {
+      "source": "paid",
+      "status": "ok",
+      "ms": 12
+    },
+    {
+      "source": "social",
+      "status": "ok",
+      "ms": 11
+    },
+    {
+      "source": "community",
+      "status": "ok",
+      "ms": 4
+    },
+    {
+      "source": "appstore",
+      "status": "ok",
+      "ms": 146
+    },
+    {
+      "source": "apple_ads",
+      "status": "ok",
+      "ms": 4
+    },
+    {
+      "source": "seo",
+      "status": "ok",
+      "ms": 274
+    },
+    {
+      "source": "hackernews",
+      "status": "ok",
+      "ms": 412
+    },
+    {
+      "source": "founders",
+      "status": "ok",
+      "ms": 787
+    },
+    {
+      "source": "wayback",
+      "status": "ok",
+      "ms": 5201
+    },
+    {
+      "source": "communities",
+      "status": "ok",
+      "ms": 120106
+    }
+  ],
+  "credits": {
+    "scrapecreators": null
+  },
+  "content": [],
+  "communities": [
+    {
+      "subreddit": "selfhosted",
+      "url": "https://www.reddit.com/r/selfhosted/",
+      "measured": {
+        "subreddit": "selfhosted",
+        "posts": 25,
+        "windowDays": 1,
+        "postsPerDay": 24.44,
+        "pctLinks": 0.44,
+        "pctQuestion": 0.2,
+        "pctStory": 0.52,
+        "pctSelfPromo": 0.08,
+        "medianTitleWords": 9,
+        "topDomains": [
+          {
+            "domain": "github.com",
+            "n": 5
+          },
+          {
+            "domain": "discord.gg",
+            "n": 2
+          },
+          {
+            "domain": "lla.ma",
+            "n": 1
+          },
+          {
+            "domain": "base.lla.ma",
+            "n": 1
+          },
+          {
+            "domain": "i.redd.it",
+            "n": 1
+          }
+        ],
+        "samples": [
+          {
+            "title": "lla.ma Base: Postgres with a web console and database management",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xb0pd4/llama_base_postgres_with_a_web_console_and/",
+            "author": "/u/InspectorDangerous82",
+            "hasLink": true
+          },
+          {
+            "title": "Query: Trying to host a site for free on custom subdomain but facing issue",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xb0aps/query_trying_to_host_a_site_for_free_on_custom/",
+            "author": "/u/SpreadingSmile",
+            "hasLink": false
+          },
+          {
+            "title": "Go: Self hosted URL redirector for making go/shortlink -> https://longer-url on your internal network",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xayxe4/go_self_hosted_url_redirector_for_making/",
+            "author": "/u/junkmailking",
+            "hasLink": false
+          },
+          {
+            "title": "Omnivore - A fully self-hosted and Open Source Read-it-Later App",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xaujlk/omnivore_a_fully_selfhosted_and_open_source/",
+            "author": "/u/Podgietaru",
+            "hasLink": true
+          },
+          {
+            "title": "Leaked SSL Certificates: no https connection can be trusted",
+            "url": "https://www.reddit.com/r/selfhosted/comments/1xaubjf/leaked_ssl_certificates_no_https_connection_can/",
+            "author": "/u/moanos",
+            "hasLink": true
+          }
+        ]
+      },
+      "policies": [],
+      "score": 50,
+      "verdict": "unknown",
+      "reasons": [
+        "no rules read: the channel is unknown, not open",
+        "25 posts in 1d (24.44/day); 44% carry an external link, 8% are self-promo, 20% are questions",
+        "the format hosts links, but no rules were read: unknown until a moderator or the sidebar confirms it"
+      ],
+      "evidenceId": "E8"
+    },
+    {
+      "subreddit": "webdev",
+      "url": "https://www.reddit.com/r/webdev/",
+      "measured": {
+        "subreddit": "webdev",
+        "posts": 25,
+        "windowDays": 2,
+        "postsPerDay": 12.42,
+        "pctLinks": 0.4,
+        "pctQuestion": 0.24,
+        "pctStory": 0.32,
+        "pctSelfPromo": 0.04,
+        "medianTitleWords": 10,
+        "topDomains": [
+          {
+            "domain": "github.com",
+            "n": 3
+          },
+          {
+            "domain": "i.redd.it",
+            "n": 2
+          },
+          {
+            "domain": "stringutilitybelt.com",
+            "n": 1
+          },
+          {
+            "domain": "stephcraft.net",
+            "n": 1
+          },
+          {
+            "domain": "demo.yourdomain.com",
+            "n": 1
+          }
+        ],
+        "samples": [
+          {
+            "title": "Understanding DMCA for personal project",
+            "url": "https://www.reddit.com/r/webdev/comments/1xayzou/understanding_dmca_for_personal_project/",
+            "author": "/u/FlamedDogo99",
+            "hasLink": true
+          },
+          {
+            "title": "eval() in a straitjacket: sandboxing JavaScript under CSP",
+            "url": "https://www.reddit.com/r/webdev/comments/1xaxbr5/eval_in_a_straitjacket_sandboxing_javascript/",
+            "author": "/u/shmurrie",
+            "hasLink": true
+          },
+          {
+            "title": "How are you managing duplicate logic when using AI coding agents?",
+            "url": "https://www.reddit.com/r/webdev/comments/1xawlae/how_are_you_managing_duplicate_logic_when_using/",
+            "author": "/u/Chris__Codes",
+            "hasLink": false
+          },
+          {
+            "title": "How to Configure robots.txt for Modern Crawlers and AI Bots",
+            "url": "https://www.reddit.com/r/webdev/comments/1xavzcl/how_to_configure_robotstxt_for_modern_crawlers/",
+            "author": "/u/Stephcraft",
+            "hasLink": true
+          },
+          {
+            "title": "[Showoff Saturday] I built a desktop app that gives localhost:3000 a real HTTPS URL on your own domain",
+            "url": "https://www.reddit.com/r/webdev/comments/1xas1l0/showoff_saturday_i_built_a_desktop_app_that_gives/",
+            "author": "/u/AdStraight5948",
+            "hasLink": true
+          }
+        ]
+      },
+      "policies": [],
+      "score": 50,
+      "verdict": "unknown",
+      "reasons": [
+        "no rules read: the channel is unknown, not open",
+        "25 posts in 2d (12.42/day); 40% carry an external link, 4% are self-promo, 24% are questions",
+        "the format hosts links, but no rules were read: unknown until a moderator or the sidebar confirms it"
+      ],
+      "evidenceId": "E15"
+    },
+    {
+      "subreddit": "analytics",
+      "url": "https://www.reddit.com/r/analytics/",
+      "measured": {
+        "subreddit": "analytics",
+        "posts": 25,
+        "windowDays": 8,
+        "postsPerDay": 3.12,
+        "pctLinks": 0,
+        "pctQuestion": 0.56,
+        "pctStory": 0.2,
+        "pctSelfPromo": 0,
+        "medianTitleWords": 12,
+        "topDomains": [],
+        "samples": [
+          {
+            "title": "What part of your reporting work is still manual every month?",
+            "url": "https://www.reddit.com/r/analytics/comments/1xay4td/what_part_of_your_reporting_work_is_still_manual/",
+            "author": "/u/Forsaken-Arugula1564",
+            "hasLink": false
+          },
+          {
+            "title": "Business analytics student, am i cooked? (I really need advice)",
+            "url": "https://www.reddit.com/r/analytics/comments/1xamwrl/business_analytics_student_am_i_cooked_i_really/",
+            "author": "/u/asdhjskhfasdjk",
+            "hasLink": false
+          },
+          {
+            "title": "If you could automate ONE ecommerce workflow tomorrow, which would you choose?",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9z84b/if_you_could_automate_one_ecommerce_workflow/",
+            "author": "/u/trivasai",
+            "hasLink": false
+          },
+          {
+            "title": "Monthly Career Advice and Job Openings",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9z76w/monthly_career_advice_and_job_openings/",
+            "author": "/u/AutoModerator",
+            "hasLink": false
+          },
+          {
+            "title": "Long time in Web Analytics just started working with PPC people",
+            "url": "https://www.reddit.com/r/analytics/comments/1x9ysdj/long_time_in_web_analytics_just_started_working/",
+            "author": "/u/AggravatingAnalyst28",
+            "hasLink": false
+          }
+        ]
+      },
+      "policies": [],
+      "score": 30,
+      "verdict": "mine",
+      "reasons": [
+        "no rules read: the channel is unknown, not open",
+        "25 posts in 8d (3.12/day); 0% carry an external link, 0% are self-promo, 56% are questions",
+        "the format is story/question posts without links: use it as a language mine, not a posting channel"
+      ],
+      "evidenceId": "E16"
+    }
+  ],
+  "identity": {
+    "logo": "https://plausible.io/assets/images/icon/apple-touch-icon.png",
+    "logos": [
+      {
+        "url": "https://plausible.io/assets/images/icon/apple-touch-icon.png",
+        "source": "apple-touch-icon",
+        "size": 180
+      },
+      {
+        "url": "https://plausible.io/assets/images/icon/favicon.svg",
+        "source": "icon",
+        "size": 512
+      },
+      {
+        "url": "https://plausible.io/assets/images/plausible_promo.jpg",
+        "source": "og-image"
+      },
+      {
+        "url": "https://www.google.com/s2/favicons?sz=128&domain=plausible.io",
+        "source": "favicon",
+        "size": 128
+      }
+    ],
+    "founders": [
+      {
+        "name": "Clem Delangue",
+        "confidence": "low",
+        "score": 1,
+        "sources": [
+          "website_text"
+        ],
+        "evidenceUrls": [
+          "https://plausible.io"
+        ],
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Laura Roeder",
+        "confidence": "low",
+        "score": 1,
+        "sources": [
+          "website_text"
+        ],
+        "evidenceUrls": [
+          "https://plausible.io"
+        ],
+        "role": "Founder"
+      }
+    ]
+  }
+}

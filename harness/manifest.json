@@ -1,0 +1,20 @@
+{
+  "name": "red-harness",
+  "version": "1",
+  "description": "Versioned distribution-analyst bundle for Reverse Engineering Distribution. Every report records this version and the bundle SHA so a prompt change is a change you can eval and roll back.",
+  "files": [
+    "system.md",
+    "guardrails.md",
+    "report-template.md",
+    "lessons.md",
+    "playbooks/communities-reddit.md",
+    "playbooks/organic-short-form.md",
+    "playbooks/x-founders.md",
+    "playbooks/seo-geo.md",
+    "playbooks/launches.md",
+    "playbooks/app-store-aso.md",
+    "playbooks/paid-amplification.md",
+    "playbooks/affiliate-referral.md",
+    "playbooks/offer-funnel.md"
+  ]
+}

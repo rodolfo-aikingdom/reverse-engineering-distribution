@@ -1,0 +1,14 @@
+node_modules/
+dist/
+red-reports/
+.env
+.env.local
+!.env.example
+*.log
+*.swp
+.*.swp
+*~
+.DS_Store
+
+# promo video project (rendered mp4 is copied to docs/)
+promo/

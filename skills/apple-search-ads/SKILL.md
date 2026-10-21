@@ -91,6 +91,14 @@ To give a reader more than the screenshot, use three things that do work:
 Say this out loud in the deliverable. A gallery that only shows the image invites the question
 "where do I see the rest", and the honest answer is the API plus the store listing.
 
+- **Rate limit at 503.** After roughly twenty consecutive requests the API answers 503 for a
+  while. Sleep thirty seconds and resume; do not hammer it in a loop. A full pull of 600 ads is
+  seven requests of `limit=100`, which is fine.
+- **Do not trust a zero that came from a wrong id.** Confirm the id with
+  `https://itunes.apple.com/lookup?id=<id>&country=us` (check `trackName`), and if the count is 0
+  search the name in the repository: `[]` means genuinely no EU ads, a row means you had the wrong
+  id.
+
 ## Limits, stated plainly
 
 - **EU only.** Ads served in the United States are not in this repository. There is no public
